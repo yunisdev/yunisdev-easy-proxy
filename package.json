@@ -1,6 +1,6 @@
 {
   "name": "yunisdev-easy-proxy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight cli tool for creating proxy servers",
   "main": "index.js",
   "scripts": {
