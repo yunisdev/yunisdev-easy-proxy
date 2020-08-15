@@ -1,11 +1,17 @@
 {
   "name": "yunisdev-easy-proxy",
   "version": "1.0.1",
-  "description": "Simple npm package for creating http proxy",
+  "description": "Lightweight cli tool for creating proxy servers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/YunisDEV/yunisdev-easy-proxy"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "homepage": "https://github.com/YunisDEV/yunisdev-easy-proxy#readme",
   "keywords": [
     "proxy",
     "node",
