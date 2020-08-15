@@ -1,0 +1,26 @@
+{
+  "name": "yunisdev-easy-proxy",
+  "version": "1.0.1",
+  "description": "Simple npm package for creating http proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proxy",
+    "node",
+    "localhost",
+    "port",
+    "express"
+  ],
+  "author": "yunisdev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "yargs": "^15.4.1"
+  },
+  "bin": {
+    "easy-proxy": "./cli.js"
+  }
+}
